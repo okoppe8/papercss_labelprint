@@ -1,0 +1,104 @@
+@page {
+    size: A4;
+    margin: 0;
+}
+
+table.print {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 182mm;
+    height: 275mm;
+    margin: -137.5mm 0 0 -91mm;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+table.print td {
+    border: 1px solid;
+    border-color: white;
+    border-collapse: collapse;
+    position: relative;
+}
+
+table.preview {
+    position: relative;
+    width: 91mm;
+    height: 55mm;
+    margin: 0 auto;
+    border: 1px solid;
+    border-collapse: collapse;
+    transform:scale(1.15);
+    transform-origin:top;
+}
+
+table.preview td {
+    border: 1px solid;
+    border-color:black;
+    border-collapse: collapse;
+    position: relative;
+}
+
+.logo {
+    margin: 0;
+    position: absolute;
+    height: 8.9mm;
+    top: 4mm;
+    left: 7.7mm;
+}
+
+.section {
+    margin: 0;
+    position: absolute;
+    top: 13.7mm;
+    left: 16.8mm;
+    font-family: "HG正楷書体-PRO";
+    font-size: 8.5pt;
+    line-height: 1 !important;
+}
+
+.Name {
+    margin: 0;
+    position: absolute;
+    top: 22.0mm;
+    left: 16.8mm;
+}
+
+.FirstKana {
+    margin: 0;
+    font-family: "HG正楷書体-PRO";
+    font-size: 5pt;
+}
+
+.FirstName {
+    margin: 0;
+    font-family: "HG正楷書体-PRO";
+    font-size: 14.5pt;
+}
+
+.LastKana {
+    margin: 0;
+    font-family: "HG正楷書体-PRO";
+    font-size: 5pt;
+}
+
+.LastName {
+    margin: 0;
+    font-family: "HG正楷書体-PRO";
+    font-size: 14.5pt;
+}
+
+.KanaSpan {
+    height: 0.7mm;
+    margin: 0;
+}
+
+.address {
+    margin: 0;
+    position: absolute;
+    top: 33.9mm ;
+    left: 16.8mm ;
+    font-family: "HG正楷書体-PRO" ;
+    font-size: 8pt ;
+    line-height: 1 !important;
+}
